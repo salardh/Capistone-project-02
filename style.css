@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Jost:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.home-pag {
+    background-image: url(./image/scooter.jpg);
+    background-size: cover;
+    height: 550px;
+    background-position: center !important;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .home-pag {
+        height: 500px !important;
+        width: auto;
+    }
+
+    .about {
+        font-size: 12px !important;
+        font-weight: 600;
+    }
+
+}
+.image {
+    margin-top: 40px;
+}
+
+/* .ggg {
+    margin-top: 70px;
+} */
+
+.footer-page {
+    background-image: url(./image/Mask.png);
+    background-size: cover;
+}
+
+/* about */
+.home-page {
+    background-image: url(./image/Bitmap.png);
+    background-size: cover;
+    height: 159px;
+    background-position: center !important;
+}
+
+.made {
+    font-family: "Space Mono", monospace;
+}
+
+.bttn {
+    margin-left: 260px;
+}
+
+/* .dell {
+    margin: 0 0 0 22%;
+} */
+
+.home-pages {
+    background-image: url(./image/Bitmap\ \(2\).png);
+    background-size: cover;
+    height: 160px;
+    background-position: center !important;
+}
+
+.home-pagse {
+    background-image: url(./image/Bitmap\ \(3\).png);
+    background-size: cover;
+    height: 160px;
+    background-position: center !important;
+}
